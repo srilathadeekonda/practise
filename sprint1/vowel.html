@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body onload = "vowel();"> 
+</body>
+<script type ="text/javascript">
+    function vowel()
+    { 
+        const input="enlume";
+        const output='';
+       //var input = prompt("Enter a word:");
+    if (input.charAt(0) == 'a' || input.charAt(0) == 'A' || input.charAt(0) == 'e' || input.charAt(0) == 'E' || input.charAt(0) == 'i' || input.charAt(0) == 'I' || input.charAt(0) == 'o' || input.charAt(0) == 'O' || input.charAt(0) == 'u' || input.charAt(0) == 'U') {
+        console.log("word is :" +input);
+        console.log("an " +input);
+    } 
+    else if ((input >= 'a' && input <= 'z') || (input >= 'A' && input <= 'Z')) {
+      console.log("a " +input);
+    }
+     else {
+        console.log("enter only alphabets ");
+     }
+    }
+    </script>
+</html>
+
+regex :(/[aeiou]/-g,/[aeiou]+1/);
